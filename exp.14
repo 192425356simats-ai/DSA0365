@@ -1,0 +1,8 @@
+subject = input("Enter Subject: ")
+verb = input("Enter Verb: ")
+if subject == "He" and verb == "runs":
+    print("Agreement Correct")
+elif subject == "They" and verb == "run":
+    print("Agreement Correct")
+else:
+    print("Agreement Incorrect")
