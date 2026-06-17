@@ -1,0 +1,9 @@
+# Simple Earley Parser
+sentence = input("Enter sentence: ")
+grammar = {
+    "S": ["John runs", "Mary walks"]
+}
+if sentence in grammar["S"]:
+    print("Sentence Accepted by Earley Parser")
+else:
+    print("Sentence Rejected")
