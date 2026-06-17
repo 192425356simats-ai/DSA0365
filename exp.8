@@ -1,0 +1,15 @@
+import random
+sentence = input("Enter sentence: ")
+words = sentence.split()
+possible_tags = {
+    "I": ["PRP"],
+    "run": ["VB", "NN"],
+    "dog": ["NN"],
+    "fast": ["RB", "JJ"]
+}
+for word in words:
+    if word in possible_tags:
+        tag = random.choice(possible_tags[word])
+    else:
+        tag = "NN"
+    print(word, "/", tag)
