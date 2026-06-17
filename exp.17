@@ -1,0 +1,10 @@
+word = input("Enter a word: ")
+wordnet = {
+    "car": ["automobile", "vehicle"],
+    "student": ["learner", "pupil"],
+    "book": ["volume", "text"]
+}
+if word in wordnet:
+    print("Synonyms:", wordnet[word])
+else:
+    print("Word not found")
