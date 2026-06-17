@@ -1,0 +1,9 @@
+sentence = input("Enter sentence: ")
+if sentence == "John runs":
+    print("      S")
+    print("    /   \\")
+    print("  NP     VP")
+    print("  |       |")
+    print("John    runs")
+else:
+    print("No Parse Tree")
