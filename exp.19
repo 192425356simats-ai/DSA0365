@@ -1,0 +1,8 @@
+sentence = input("Enter sentence: ")
+if "bank" in sentence:
+    if "river" in sentence:
+        print("Sense: River Bank")
+    else:
+        print("Sense: Financial Bank")
+else:
+    print("Word not found")
