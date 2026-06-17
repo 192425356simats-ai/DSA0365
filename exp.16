@@ -1,0 +1,7 @@
+text = input("Enter text: ")
+words = text.split()
+for word in words:
+    if word in ["India", "Hyderabad", "Delhi"]:
+        print(word, "- Location")
+    elif word in ["Ravi", "John", "Mary"]:
+        print(word, "- Person")
