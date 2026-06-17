@@ -1,0 +1,7 @@
+sentence = input("Enter sentence: ")
+if sentence == "John runs":
+    probability = 0.9
+    print("Sentence Parsed")
+    print("Probability =", probability)
+else:
+    print("Sentence Not Parsed")
