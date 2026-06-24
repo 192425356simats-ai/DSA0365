@@ -1,0 +1,10 @@
+sentence = input("Enter a sentence: ")
+
+if sentence.endswith("?"):
+    print("Dialog Act: Question")
+elif "thank" in sentence.lower():
+    print("Dialog Act: Thanking")
+elif "hello" in sentence.lower() or "hi" in sentence.lower():
+    print("Dialog Act: Greeting")
+else:
+    print("Dialog Act: Statement")
