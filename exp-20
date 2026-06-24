@@ -1,0 +1,11 @@
+docs = [
+    "Python is a programming language",
+    "Machine learning uses Python",
+    "Artificial Intelligence is growing"
+]
+
+query = input("Enter search word: ")
+
+for i in range(len(docs)):
+    score = docs[i].lower().count(query.lower())
+    print("Document", i+1, "Score =", score)
