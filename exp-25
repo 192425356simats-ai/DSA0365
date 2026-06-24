@@ -1,0 +1,4 @@
+prompt = input("Enter a prompt: ")
+generated_text = prompt + " is an interesting topic to learn."
+print("Generated Text:")
+print(generated_text)
