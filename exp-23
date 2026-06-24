@@ -1,0 +1,14 @@
+text1 = input("Enter first sentence: ")
+text2 = input("Enter second sentence: ")
+
+words1 = set(text1.lower().split())
+words2 = set(text2.lower().split())
+
+common = words1.intersection(words2)
+
+if len(common) > 0:
+    print("Text is Coherent")
+else:
+    print("Text is Not Coherent")
+
+print("Common Words:", common)
