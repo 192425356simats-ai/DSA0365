@@ -1,0 +1,6 @@
+text = "Ravi went to school. He was late."
+name = "Ravi"
+resolved_text = text.replace("He", name)
+
+print("Original Text:", text)
+print("Resolved Text:", resolved_text)
