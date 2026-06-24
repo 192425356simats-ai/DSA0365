@@ -1,0 +1,8 @@
+sentence = input("Enter a sentence: ") 
+words = sentence.split()
+if len(words) >= 2:
+    noun_phrase = words[0] + " " + words[1]
+    print("Noun Phrase:", noun_phrase)
+    print("Meaning: Identified as a subject in the sentence")
+else:
+    print("Sentence too short")
